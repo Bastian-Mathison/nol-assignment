@@ -9,7 +9,7 @@
              :with-toc nil
              :with-creator nil
              :section-numbers nil
-             :publishingfunction 'org-html-publish-to-html)))
+             :publishing-function 'org-html-publish-to-html)))
 
 (setq org-html-validation-link nil)
 (setq org-html-footnote-format nil)

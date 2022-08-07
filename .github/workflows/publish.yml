@@ -30,7 +30,7 @@ jobs:
       - name: build
         run: make
       - name: deploy
-        uses: JamesIves/github-pages-deploy-action@4.14
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with: 
           branch: gh-pages
           folder: public

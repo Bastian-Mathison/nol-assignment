@@ -1,14 +1,14 @@
 #+TITLE: The nature of light.
-#+AUTHOR: Bastian Mathison.
-#+OPTIONS: tex:t
 
-# TODO: kill me
-* The nature of light.
-+ 100s of years
-+ people
-+ foundation of physics
+#+INCLUDE: "../common/preamble.org"
 
-** The Concepts:
+* Context.
+The nature of light has been a 
+
+* The Concepts:
 + [[./photoelectric.org][The Photoelectric Effect]]
 + [[./polarisation.org][Polarisation]]
 + [[./special.org][Special Relativity]]
+
+** Also see
+[[./bib.org][The Bibliography]]

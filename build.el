@@ -3,13 +3,22 @@
 (setq org-publish-project-alist
       (list
        (list "natlight"
+             ;; Basic options
              :recursive t
              :base-directory "./content"
              :publishing-directory "./public"
+             :publishing-function 'org-html-publish-to-html
+
+             ;; disabling
              :with-toc nil
              :with-creator nil
              :section-numbers nil
-             :publishing-function 'org-html-publish-to-html)))
+
+             ;; sitemap
+             :auto-sitemap t
+             :sitemap-file "common/sitemap.org"
+             :sitemap-title "Sitemap"
+             )))
 
 (setq org-html-validation-link nil)
 (setq org-html-footnote-format nil)

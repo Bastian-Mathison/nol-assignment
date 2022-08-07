@@ -1,0 +1,22 @@
+#+TITLE: Special Relativity.
+#+INCLUDE: ../common/preamble.org
+
+** The Lorentz Factor
+The lorentz factor is the factor at which time is dialated, and length is contracted, among other things,
+in inertial (non-accelerating) reference frames. ("The Lorentz transform equations, the addition of velocities and spacetime", n.d)
+
+The equation to calculate the lorentz factor is:
+\begin{equation}
+\gamma = \frac 1 {\sqrt {1 - \frac {v^2} {c^2}}}
+\end{equation}
+where $v =$ the relative velocity of the observers,
+and $c =$ the speed of light $x \approx 3 \cdot 10 ^ 8$
+
+** Time Dialation
+
+\begin{equation}
+t = t_0 \gamma = \frac {t_0} {\sqrt {1 - \frac {v ^ 2} {c ^ 2}}}
+\end{equation}
+where $t$ is the time as mesured from an outside observer,
+$t_0$ is the time mesured by the moving observer,
+and $\gamma$ is the [[The Lorentz Factor]].

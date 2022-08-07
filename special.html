@@ -3,11 +3,12 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-08-07 Sun 05:46 -->
+<!-- 2022-08-07 Sun 07:56 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>&lrm;</title>
+<title>Special Relativity.</title>
 <meta name="generator" content="Org mode" />
+<meta name="author" content="Bastian Mathison." />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center;
@@ -226,9 +227,74 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
+<h1 class="title">Special Relativity.</h1>
+<nav>
+    <a class="active" href="index.html">Home</a>
+    <a href="photoelectric.html">Photoelectric Effect</a>
+    <a href="polarisation.org">Polarisation</a>
+    <a href="special.html">Special Relativity</a>
+    <a href="bib.html">Bibliography</a>
+</nav>
+
+<div id="outline-container-org6e4841a" class="outline-2">
+<h2 id="org6e4841a">The Lorentz Factor</h2>
+<div class="outline-text-2" id="text-org6e4841a">
+<p>
+The lorentz factor is the factor at which time is dialated, and length is contracted, among other things,
+in inertial (non-accelerating) reference frames. ("The Lorentz transform equations, the addition of velocities and spacetime", n.d)
+</p>
+
+<p>
+The equation to calculate the lorentz factor is:
+</p>
+\begin{equation}
+\gamma = \frac 1 {\sqrt {1 - \frac {v^2} {c^2}}}
+\end{equation}
+<p>
+where \(v =\) the relative velocity of the observers,
+and \(c =\) the speed of light \(x \approx 3 \cdot 10 ^ 8\)
+</p>
+</div>
+</div>
+
+<div id="outline-container-org00bf2c7" class="outline-2">
+<h2 id="org00bf2c7">Time Dialation</h2>
+<div class="outline-text-2" id="text-org00bf2c7">
+\begin{equation}
+t = t_0 \gamma = \frac {t_0} {\sqrt {1 - \frac {v ^ 2} {c ^ 2}}}
+\end{equation}
+<p>
+where \(t\) is the time as mesured from an outside observer,
+\(t_0\) is the time mesured by the moving observer,
+and \(\gamma\) is the <a href="#org6e4841a">The Lorentz Factor</a>.
+</p>
+</div>
+</div>
 </div>
 </body>
 </html>

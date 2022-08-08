@@ -5,7 +5,7 @@ Polarised light is light that is all travelling in the same orientation. ("polar
 The polarised light's electric and magnetic fields are still perpendicular to each other,
 but are forced into a specific orientation, As seen in the diagram below (from previous source).
 
-[[./images/polarisation.webp]]
+[[./images/polarisation.jpg]]
 
 * Malus's law
 Malus's law states that polarised light with intensity ($I_0$)

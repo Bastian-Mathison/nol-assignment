@@ -2,8 +2,6 @@
 <style>
 .tbl {
 padding: 10px 10px 10px 10px;
-border: 1px 1px 1px 1px;
-border-color: black;
 }
 </style>
 

@@ -1,0 +1,14 @@
+#+TITLE: Reflection
+#+INCLUDE: ../common/preamble.org
+
+The Kickstart Physics workshop, run at the University of Sydney (USYD), 
+to us wasn't a great help, as we had already gone over most of the content in class.
+The practical demonstrations done were somewhat boring with one of the three instructors.
+
+The only 'new' concept that we covered was special relativity, 
+however early in the year (while Mr Sumners was absent), 
+we got introduced to special relativity in greater depth than the workshop.
+ 
+ All other concepts had been covered in class in greater depth,
+ with more comprehensible and complete explanations of the effects.
+ 

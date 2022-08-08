@@ -2,7 +2,7 @@
 #+INCLUDE: ../common/preamble.org
 
 The photoelectric effect is the effect in which
-a source of light, of sufficient frequency as to overcome the [[Binding Voltage][binding voltage]],
+a source of light, of sufficient frequency as to overcome the [[#beng][Binding Energy]],
 being shone onto a conductor will produce an electrical current.
 
 ** Why?
@@ -13,4 +13,27 @@ This, if the photons have a high enough frequency,
 will cause the electron to be ejected from the atom,
 causing an electrical current.
 
-* Binding Voltage
+* 'Binding Energy' and 'Threshold Frequency'
+:PROPERTIES:
+:CUSTOM_ID: beng
+:END:
++ _/'Binding energy'/_ (denoted $\phi$) is the energy required to
+   eject an electron from its atom.
+   The binding energy is very dependent on material and each material will have it's own binding energy.
++ _/'Threshold Frequency'/_ is the minimum frequency required for a photon eject an electron.
+
+The kinetic energy of the electron after being hit with a proton is
+\begin{equation}
+KE = hf - \phi
+\end{equation}
+($h$ is plank's constant, approx $6.6 \cdot 10 ^ {-34}$ m$^2$ kg s$^{-1}$)
+
+If, and only if, $KE > 0$ will the electron be ejected.
+If $KE \leq 0$ then the electron will remain in the atom,
+however there is no 'build up' of charge as predicted in the classical model,
+only a single photon's energy matters.
+
+You may have noticed that this equation does not involve amplitude,
+that's because only voltage (which is the energy of a single electron)
+is only dependent on the photon's frequency (which is the energy of a single photon).
+Current (which is how many electrons) is dependent on the light source's amplitude (which is the amount of photons).

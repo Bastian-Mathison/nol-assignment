@@ -1,2 +1,15 @@
 #+TITLE: Polarisation
 #+INCLUDE: ../common/preamble.org
+
+Polarised light is light that is all travelling in the same orientation. ("polarization", n.d)
+The polarised light's electric and magnetic fields are still perpendicular to each other,
+but are forced into a specific orientation, As seen in the diagram below (from previous source).
+
+[[./images/polarisation.webp]]
+
+* Malus's law
+Malus's law states that polarised light with intensity ($I_0$)
+going through a polarising filter will have an intensity of
+\begin{equation}
+I = I_0 \cos ^2 \theta
+\end{equation}

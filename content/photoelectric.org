@@ -1,3 +1,16 @@
 #+TITLE: The photoelectric effect.
 #+INCLUDE: ../common/preamble.org
 
+The photoelectric effect is the effect in which
+a source of light, of sufficient frequency as to overcome the [[Binding Voltage][binding voltage]],
+being shone onto a conductor will produce an electrical current.
+
+** Why?
+The reason behind the photoelectric effect is that the photons,
+when they collide with the conductor,
+impart some of their energy into the conductor's electrons.
+This, if the photons have a high enough frequency,
+will cause the electron to be ejected from the atom,
+causing an electrical current.
+
+* Binding Voltage

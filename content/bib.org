@@ -1,4 +1,11 @@
 #+TITLE: Bibliography
 #+INCLUDE: ../common/preamble.org
 
-"The Lorentz transform equations, the addition of velocities and spacetime", No date, retrieved from http://www.phys.unsw.edu.au/einsteinlight/jw/module4_Lorentz_transforms.htm
++ "The Lorentz transform equations, the addition of velocities and spacetime",
+  No Author, No Date,
+  retrieved from http://www.phys.unsw.edu.au/einsteinlight/jw/module4_Lorentz_transforms.htm
++ "time dilation",
+  Britanica Editors, No Date,
+  retrieved from https://www.britannica.com/science/time-dilation.
+
+

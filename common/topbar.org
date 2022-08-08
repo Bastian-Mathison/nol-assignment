@@ -14,5 +14,3 @@ padding: 10px 10px 10px 10px;
     <a class="tbl" href="bib.html">Bibliography</a>
 </nav>
 #+end_export
-
-orgorg

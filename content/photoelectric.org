@@ -37,3 +37,12 @@ You may have noticed that this equation does not involve amplitude,
 that's because only voltage (which is the energy of a single electron)
 is only dependent on the photon's frequency (which is the energy of a single photon).
 Current (which is how many electrons) is dependent on the light source's amplitude (which is the amount of photons).
+
+** $KE$ vs $f$
+The above equation of $KE = hf - \phi$
+takes the form of $y = mx + b$ which is the equation
+for a linear relationship, this means, as $f$ increases,
+$KE$ increases at a steady rate ($\frac {d KE} {d f} = h$).
+Shown below is an example graph of a $KE$ vs $f$ graph.
+
+[[./images/photoelectric.jpg]]

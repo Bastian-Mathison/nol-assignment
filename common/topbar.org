@@ -8,7 +8,7 @@ padding: 10px 10px 10px 10px;
 <nav>
     <a class="active tbl" href="index.html">Home</a>
     <a class="tbl" href="photoelectric.html">Photoelectric Effect</a>
-    <a class="tbl" href="polarisation.org">Polarisation</a>
+    <a class="tbl" href="polarisation.html">Polarisation</a>
     <a class="tbl" href="special.html">Special Relativity</a>
     <a class="tbl" href="reflection.html">Reflection</a>
     <a class="tbl" href="bib.html">Bibliography</a>

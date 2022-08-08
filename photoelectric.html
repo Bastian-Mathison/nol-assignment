@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2022-08-08 Mon 05:08 -->
+<!-- 2022-08-08 Mon 10:33 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>The photoelectric effect.</title>
@@ -227,6 +227,28 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
@@ -245,19 +267,15 @@ padding: 10px 10px 10px 10px;
     <a class="tbl" href="reflection.html">Reflection</a>
     <a class="tbl" href="bib.html">Bibliography</a>
 </nav>
-
-<p>
-orgorg
-</p>
 <p>
 The photoelectric effect is the effect in which
-a source of light, of sufficient frequency as to overcome the <a href="#orgf36c8c9">binding voltage</a>,
+a source of light, of sufficient frequency as to overcome the <a href="#beng">Binding Energy</a>,
 being shone onto a conductor will produce an electrical current.
 </p>
 
-<div id="outline-container-orgb288adf" class="outline-3">
-<h3 id="orgb288adf">Why?</h3>
-<div class="outline-text-3" id="text-orgb288adf">
+<div id="outline-container-org5c002f5" class="outline-3">
+<h3 id="org5c002f5">Why?</h3>
+<div class="outline-text-3" id="text-org5c002f5">
 <p>
 The reason behind the photoelectric effect is that the photons,
 when they collide with the conductor,
@@ -269,8 +287,40 @@ causing an electrical current.
 </div>
 </div>
 
-<div id="outline-container-orgf36c8c9" class="outline-2">
-<h2 id="orgf36c8c9">Binding Voltage</h2>
+<div id="outline-container-org6274817" class="outline-2">
+<h2 id="beng"><a id="org6274817"></a>'Binding Energy' and 'Threshold Frequency'</h2>
+<div class="outline-text-2" id="text-beng">
+<ul class="org-ul">
+<li><span class="underline"><i>'Binding energy'</i></span> (denoted \(\phi\)) is the energy required to
+eject an electron from its atom.
+The binding energy is very dependent on material and each material will have it's own binding energy.</li>
+<li><span class="underline"><i>'Threshold Frequency'</i></span> is the minimum frequency required for a photon eject an electron.</li>
+</ul>
+
+<p>
+The kinetic energy of the electron after being hit with a proton is
+</p>
+\begin{equation}
+KE = hf - \phi
+\end{equation}
+<p>
+(\(h\) is plank's constant, approx \(6.6 \cdot 10 ^ {-34}\) m\(^2\) kg s\(^{-1}\))
+</p>
+
+<p>
+If, and only if, \(KE > 0\) will the electron be ejected.
+If \(KE \leq 0\) then the electron will remain in the atom,
+however there is no 'build up' of charge as predicted in the classical model,
+only a single photon's energy matters.
+</p>
+
+<p>
+You may have noticed that this equation does not involve amplitude,
+that's because only voltage (which is the energy of a single electron)
+is only dependent on the photon's frequency (which is the energy of a single photon).
+Current (which is how many electrons) is dependent on the light source's amplitude (which is the amount of photons).
+</p>
+</div>
 </div>
 </div>
 </body>

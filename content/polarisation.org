@@ -1,15 +1,36 @@
 #+TITLE: Polarisation
 #+INCLUDE: ../common/preamble.org
 
-Polarised light is light that is all travelling in the same orientation. ("polarization", n.d)
+Polarised light in the quantum model,
+is light that is all traveling in the same orientation. ("polarization", n.d)
 The polarised light's electric and magnetic fields are still perpendicular to each other,
 but are forced into a specific orientation, As seen in the diagram below (from previous source).
 
 [[./images/polarisation.jpg]]
 
+In the classical model, when a light source goes through a polarising filter, 
+
 * Malus's law
 Malus's law states that polarised light with intensity ($I_0$)
 going through a polarising filter will have an intensity of
 \begin{equation}
-I = I_0 \cos ^2 \theta
+I = I_0 \cos^2 \theta
 \end{equation}
+
+Meaning if two polarising filters are placed at a $\frac \pi 2$ radian (90 degrees)
+angle, there will be no light passing through,
+($\cos^2 \left ( \frac \pi 2 \right ) = 0$).
+
+However this model is not perfect,
+this model predicts that if 3 filters are placed at
+$\frac pi 4$ radians (45 degrees) apart from each other,
+that 0 light will pass through.
+However this is not the case, ~12.5% of light will pass through. ("The Three-Polarizer Paradox", 2020)
+[[https://youtu.be/5SIxEiL8ujA][An example video]] of this effect.
+This effect in the quantum model is explained by the polarised light
+/strictly/ being in the orientation of the polarizing filter,
+unlike the classical model where the light retains its direction.
+
+In the case of the three polariser paradox,
+by letting $\theta$ be the angle between successive filters,
+the result is predicted accurately. 

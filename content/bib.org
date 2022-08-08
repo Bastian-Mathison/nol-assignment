@@ -1,11 +1,15 @@
 #+TITLE: Bibliography
 #+INCLUDE: ../common/preamble.org
 
+* Special Relativity
 + "The Lorentz transform equations, the addition of velocities and spacetime",
   No Author, No Date,
   retrieved from http://www.phys.unsw.edu.au/einsteinlight/jw/module4_Lorentz_transforms.htm
 + "time dilation",
   Britanica Editors, No Date,
   retrieved from https://www.britannica.com/science/time-dilation.
+
+* Polarisation
++ "The Three-Polarizer Paradox", Frank Rioux, 2020, retrieved from https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Quantum_Tutorials_(Rioux)/Quantum_Optics/268%3A_The_Three-Polarizer_Paradox
 
 

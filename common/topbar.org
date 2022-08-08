@@ -1,11 +1,19 @@
 #+begin_export html
+<style>
+.tbl {
+padding: 10px 10px 10px 10px;
+border: 1px 1px 1px 1px;
+border-color: black;
+}
+</style>
+
 <nav>
-    <a class="active" href="index.html">Home</a>
-    <a href="photoelectric.html">Photoelectric Effect</a>
-    <a href="polarisation.org">Polarisation</a>
-    <a href="special.html">Special Relativity</a>
-    <a href="reflection.html">Reflection</a>
-    <a href="bib.html">Bibliography</a>
+    <a class="active tbl" href="index.html">Home</a>
+    <a class="tbl" href="photoelectric.html">Photoelectric Effect</a>
+    <a class="tbl" href="polarisation.org">Polarisation</a>
+    <a class="tbl" href="special.html">Special Relativity</a>
+    <a class="tbl" href="reflection.html">Reflection</a>
+    <a class="tbl" href="bib.html">Bibliography</a>
 </nav>
 #+end_export
 

@@ -1,7 +1,7 @@
 #+TITLE: Special Relativity.
 #+INCLUDE: ../common/preamble.org
 
-Special relativity is an extension of gailaen relativity,
+Special relativity is an extension of Galilean relativity,
 which proposes that things like time, are not constant in all reference frames,
 but instead warp themselves to keep the speed (denoted $c$) of light constant.
 All reference frames will observe $c$ as the same constant.
@@ -41,4 +41,3 @@ This cannot be with time being constant in /all/ frames of reference.
 So logically time /must/ vary.
 
 [[file:./images/clock.jpg]]
-

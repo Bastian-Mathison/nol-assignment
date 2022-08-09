@@ -3,7 +3,10 @@
 #+INCLUDE: "../common/preamble.org"
 
 * Context.
-The nature of light has been a 
+The nature of light has been at the core of physics
+for 100s of years. From Galileo to Newton to Einstein, all focused heavily on light.
+
+There are three concepts covered on this website.
 
 * The Concepts:
 + [[./photoelectric.org][The Photoelectric Effect]]

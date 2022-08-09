@@ -8,8 +8,6 @@ but are forced into a specific orientation, As seen in the diagram below (from p
 
 [[./images/polarisation.jpg]]
 
-In the classical model, when a light source goes through a polarising filter, 
-
 * Malus's law
 Malus's law states that polarised light with intensity ($I_0$)
 going through a polarising filter will have an intensity of
@@ -33,4 +31,4 @@ unlike the classical model where the light retains its direction.
 
 In the case of the three polariser paradox,
 by letting $\theta$ be the angle between successive filters,
-the result is predicted accurately. 
+the result is predicted accurately.

@@ -6,10 +6,10 @@ a source of light, of sufficient frequency as to overcome the [[#beng][Binding E
 being shone onto a conductor will produce an electrical current.
 
 ** Why?
-The reason behind the photoelectric effect is that the photons,
-when they collide with the conductor,
+The reason the photoelectric effect occurs is
+when the photons collide with the conductor they
 impart some of their energy into the conductor's electrons.
-This, if the photons have a high enough frequency,
+This, if the photons have a high enough frequency/energy,
 will cause the electron to be ejected from the atom,
 causing an electrical current.
 
